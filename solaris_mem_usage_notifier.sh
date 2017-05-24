@@ -2,8 +2,7 @@
 serverName=`uname -n`
 THRESHOLD=80
 MAILER="/usr/bin/mailx"
-MAIL="arun.kp@hpe.com"
-DATE=`date`
+MAIL="arun@example.com"
 # totalRAM variable must be defined in MB(Megabyte). Use command prtdiag |grep "Memory size" |awk '{print $3}'` to get value in MB
 totalRAM=65536 #in MB
 # calculating Memory usage
